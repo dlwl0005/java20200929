@@ -24,5 +24,24 @@ public class TypeCastingEx1 {
 		longValue = 230000000000000L;
 		intValue = (int) longValue;
 		System.out.println(intValue);
+		
+		//자동형변환(정수->실수)
+		float floatValue = 0.0f;
+		double doubleValue = 0.0;
+		
+		doubleValue = intValue;
+		floatValue = intValue;
+		
+		longValue = 9223372036854775807L;
+		floatValue = longValue;
+		System.out.println(floatValue);
+		
+		doubleValue = longValue;
+		System.out.println(doubleValue);
+		
+		//강제 형변환(실수 ->정수)
+		intValue = (int) floatValue;
+		System.out.println(intValue);
+		
 	}
 }

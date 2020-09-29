@@ -17,5 +17,6 @@ public class PromotionExample {
 		intVlaue = 200;
 		double doubleValue = intVlaue;
 		System.out.println(doubleValue);
+		
 	}
 }
