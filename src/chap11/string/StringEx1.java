@@ -29,10 +29,12 @@ public class StringEx1 {
 		System.out.println(str8.charAt(l-1));//마지막문자가져오기
 		
 		//replace
+		System.out.println("----replace-----");
 		String str9 = "abcdefabcdefg";
 		String str10 = str9.replace("abc", "123");
 		System.out.println(str10);
 		//substring
+		System.out.println("------subString------");
 		String str11 = "0123456789gjgj6757g";
 		String sub = str11.substring(2,3);
 		System.out.println(sub);
@@ -42,6 +44,7 @@ public class StringEx1 {
 		sub = str11.substring(6);
 		System.out.println(sub);
 		//trim
+		System.out.println("-----trim-------");
 		String str12 = " java ";
 		String t = str12.trim();
 		System.out.println(t);
