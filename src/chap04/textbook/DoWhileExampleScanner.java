@@ -11,6 +11,7 @@ public class DoWhileExampleScanner {
 		String line = scanner.nextLine();
 		
 		System.out.println("출력");
+		System.out.println(line);
 		
 	}
 
