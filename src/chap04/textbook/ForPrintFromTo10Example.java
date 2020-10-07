@@ -8,7 +8,7 @@ public class ForPrintFromTo10Example {
 		// 1 -> 2 ->code ->3 ->2
 		
 		// 1~10
-		for (int i = 1; i < 10; i++) {
+		for (int i = 1; i <= 10; i++) {
 			System.out.println(i);
 	}
 		System.out.println("====================");
