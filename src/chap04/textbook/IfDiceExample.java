@@ -1,6 +1,6 @@
 package chap04.textbook;
 
-public class IfElseIfElseExample2 {
+public class IfDiceExample {
 
 	public static void main(String[] args) {
 		int num = (int)(Math.random()*6)+1;
