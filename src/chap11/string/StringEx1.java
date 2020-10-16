@@ -39,9 +39,8 @@ public class StringEx1 {
 		String str11 = "0123456789gjgj6757g";
 		String sub = str11.substring(2,3);
 		System.out.println(sub);
-		sub = str11.substring(5, str11.length());
+		sub = str11.substring(1, str11.length());
 		System.out.println(sub);
-		
 		sub = str11.substring(6);
 		System.out.println(sub);
 		//trim
