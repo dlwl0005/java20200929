@@ -2,7 +2,7 @@ package chap04.textbook;
 
 import java.util.Scanner;
 
-import javax.xml.ws.handler.MessageContext.Scope;
+//import javax.xml.ws.handler.MessageContext.Scope;
 
 public class IfElseIfElseExample {
 
