@@ -18,12 +18,13 @@ public class StringEx1 {
 		System.out.println(str2 ==str6);
 		System.out.println(str2.equals(str6));
 		//indexOf
-		System.out.println("----");
-		String str7 = "자바 프로그래밍";
-		int c= str7.indexOf("자바 프");
+		System.out.println("--indexof--");
+		String str7 = "axxbb";
+		int c= str7.indexOf("x");
 		System.out.println(c);
-		
+		System.out.println(str7.substring(c+1, c+2));
 		//length
+		System.out.println("------length------");
 		String str8 = "이것이 자바다.          java";
 		int l=str8.length();
 		System.out.println(l);
