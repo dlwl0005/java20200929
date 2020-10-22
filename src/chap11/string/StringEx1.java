@@ -42,7 +42,7 @@ public class StringEx1 {
 		System.out.println(sub);
 		sub = str11.substring(1, str11.length());
 		System.out.println(sub);
-		sub = str11.substring(6);
+		sub = str11.substring(str11.length()-2);
 		System.out.println(sub);
 		//trim
 		System.out.println("-----trim-------");
