@@ -10,9 +10,9 @@ public class Container<K, V> {
 
 	public K getKey() {return key;}
 	public V getValue() {return value;}
-	public void set(K k, V v) {
-		this.key = k;
-		this.value = v;
+	public void set(K key, V value) {
+		this.key = key;
+		this.value = value;
 		
 	}
 
