@@ -8,6 +8,7 @@ public class Myclass {
 	
 	void method1(int i) {
 		System.out.println("method1########");
+		System.out.println(i);
 	}
 	
 	void method1(double j) {

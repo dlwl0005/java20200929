@@ -15,6 +15,9 @@ public class ProductExample {
 		product2.setModel("디젤");
 		Car car = product2.getKind();
 		String carModel = product2.getModel();
+		System.out.println(car);
+		System.out.println(carModel);
+		System.out.println(tvModel);
 		
 		
 		
