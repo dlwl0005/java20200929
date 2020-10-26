@@ -28,7 +28,7 @@ public class StringEx1 {
 		String str8 = "이것이 자바다.          java";
 		int l=str8.length();
 		System.out.println(l);
-		System.out.println(str8.charAt(l-1));//마지막문자가져오기
+		System.out.println(str8.charAt(str8.length()-1));//마지막문자가져오기
 		
 		//replace
 		System.out.println("----replace-----");

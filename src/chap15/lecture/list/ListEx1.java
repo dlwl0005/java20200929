@@ -46,5 +46,6 @@ public class ListEx1 {
 		
 		Object o1 = listNotype.get(0);
 		Object o2 = listNotype.get(1);
+		System.out.println(o1);
 	}
 }
